@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "ARTELIA_PROD_PARIS"
+    organization = "Artelia-ybo"
 
     workspaces {
       name = "snowday"
